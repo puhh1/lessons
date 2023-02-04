@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "lit": "^2.6.1"
+  },
+  "name": "lit-element",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "web-dev-server --open --node-resolve",
+    "start:watch": "web-dev-server --open --node-resolve --watch"
+  },
+  "dependecies": {
+    "lit-element": "2.5.1",
+    "lit-html": "1.4.1"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "3.1.7",
+    "@web/dev-server": "0.1.35",
+    "@web/test-runner": "0.15.0"
+  }
+}
