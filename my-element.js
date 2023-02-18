@@ -16,14 +16,13 @@ export class ByeElement extends LitElement {
 
     render() {
         return html`
-            <div>Сколько будет 2 + 2?</div>
+            <div>todo: Написать кастомный элеммент</div>
       <button @click=${() =>
-            (this._showMessage = !this._showMessage)}>ГДЗ</button>
+            (this._showMessage = !this._showMessage)}>stackoverflow</button>
       <div id="message" ?hidden=${!this._showMessage}>
-        Решай сам, Бездарь!
+          <div> Делай сам, <a href="https://fb.ru/article/375138/bezdar---eto-kto-takoy-znachenie-sinonimyi-i-tolkovanie?ysclid=le9ialw64n338858685">Бездарь!</a></div>
           <button @click=${() =>
-              (this._showMessage = !this._showMessage)}>скрыть</button>
-      </div>
+              (this._showMessage = !this._showMessage)}>скрыть</button></div>
     `;
     }
 }
